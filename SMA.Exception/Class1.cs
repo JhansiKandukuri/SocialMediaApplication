@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace SMA.Exception
 {
-    public class Class1
+     public class SocialMediaException : ApplicationException
     {
+        public SocialMediaException() : base()
+        {
+
+        }
+        public SocialMediaException(string errorMsg) : base()
+        {
+
+        }
     }
 }
